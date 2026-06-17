@@ -72,3 +72,53 @@ p {
     width: 260px;
   }
 }
+
+.project-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px 50px;
+  box-sizing: border-box;
+}
+
+.project-card {
+  width: min(1000px, 100%);
+  max-width: 1000px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  padding: 40px 40px 30px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.project-title {
+  font-size: 72px;
+  margin: 0 auto 25px;
+  color: white;
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.95);
+  border-radius: 40px;
+  padding: 22px 32px;
+}
+
+.project-description {
+  font-size: 28px;
+  color: white;
+  margin: 0;
+  max-width: 900px;
+  font-family: "Great Vibes", cursive;
+  line-height: 1.45;
+}
+
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 48px;
+    padding: 18px 24px;
+  }
+
+  .project-description {
+    font-size: 24px;
+  }
+}
+
